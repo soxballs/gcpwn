@@ -1,7 +1,7 @@
 ![GCPwnLogo](https://github.com/user-attachments/assets/1ad93c63-37f2-42fd-95e9-ec05966cb6b2)
 
 [![PyPI](https://img.shields.io/pypi/v/gcpwn)](https://pypi.org/project/gcpwn/)
-[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](./LICENSE)
 [![Stars](https://img.shields.io/github/stars/NetSPI/gcpwn.svg)](https://github.com/NetSPI/gcpwn/stargazers)
 [![Forks](https://img.shields.io/github/forks/NetSPI/gcpwn.svg)](https://github.com/NetSPI/gcpwn/network)
