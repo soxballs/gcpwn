@@ -483,10 +483,14 @@ def interact_with_module(session, module_path: str, module_args: Sequence[str]) 
 
         original_project_id = session.project_id
         failures: list[str] = []
+        pending_project_ids = list(target_project_ids)
+        index = 0
         try:
-            for index, project_id in enumerate(target_project_ids):
+            while index < len(pending_project_ids):
+                project_id = pending_project_ids[index]
+                run_total = len(pending_project_ids)
                 print(
-                    f"{UtilityTools.BOLD}[*] Target project {index + 1}/{len(target_project_ids)}: "
+                    f"{UtilityTools.BOLD}[*] Target project {index + 1}/{run_total}: "
                     f"{project_id}{UtilityTools.RESET}"
                 )
                 callback, ok = _execute_module_for_project(
@@ -496,20 +500,27 @@ def interact_with_module(session, module_path: str, module_args: Sequence[str]) 
                     project_id=project_id,
                     passthrough_args=passthrough_args,
                     run_index=index,
-                    run_total=len(target_project_ids),
+                    run_total=run_total,
                 )
                 if not ok:
                     failures.append(str(project_id))
+                    index += 1
                     continue
-                if callback == 2 and mod_short == "enum_all" and not runner.project_ids:
-                    target_project_ids = _normalize_project_ids(
-                        [*target_project_ids, *(getattr(session, "global_project_list", []) or [])]
+                if (
+                    callback == 2
+                    and mod_short == "enum_all"
+                    and not runner.project_ids
+                    and not runner.current_project
+                ):
+                    pending_project_ids = _normalize_project_ids(
+                        [*pending_project_ids, *(getattr(session, "global_project_list", []) or [])]
                     )
+                index += 1
 
             if failures:
                 print(
                     f"{UtilityTools.YELLOW}[!] {mod_short} completed with failures on "
-                    f"{len(failures)}/{len(target_project_ids)} target projects.{UtilityTools.RESET}"
+                    f"{len(failures)}/{len(pending_project_ids)} target projects.{UtilityTools.RESET}"
                 )
                 return -1
             return 0
