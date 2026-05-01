@@ -1,0 +1,255 @@
+{
+  "single_permission_rules": {
+    "CAN_MODIFY_PROJECT_IAM": {
+      "permission": "resourcemanager.projects.setIamPolicy",
+      "description": "Can change project IAM bindings/roles. Can add an IAM binding making yourself administrator thus essentially controlling all resources in project.  Warning: This will wipe all previous IAM bindings with a new set of IAM bindings so its sa good idea to run get-iam-policy first and then set-iam-policy with the same policy bindings albeit your modified content\nGCPwn Module: modules run exploit_setiampolicy Gcloud Commands: gcloud projects get-iam-policy my-project --format=json > policy.json; #edit policy.json like adding yourself as admin;  gcloud projects set-iam-policy my-project policy.json",
+      "resource_scopes_possible": [
+        "project"
+      ]
+    },
+    "CAN_MODIFY_FOLDER_IAM": {
+      "permission": "resourcemanager.folders.setIamPolicy",
+      "description": "Can change folder IAM bindings/roles. This can grant control over all descendant projects/resources via inherited IAM. Warning: set-iam-policy replaces the full policy, so fetch first and then re-apply with your intended changes.\nGCPwn Module: modules run exploit_setiampolicy Commands: gcloud resource-manager folders get-iam-policy <FOLDER_ID> --format=json > policy.json; #edit policy.json; gcloud resource-manager folders set-iam-policy <FOLDER_ID> policy.json",
+      "resource_scopes_possible": [
+        "folder"
+      ]
+    },
+    "CAN_MODIFY_ORG_IAM": {
+      "permission": "resourcemanager.organizations.setIamPolicy",
+      "description": "Can change organization IAM bindings/roles. This can grant broad tenancy-wide control across folders and projects. Warning: set-iam-policy replaces the full policy, so fetch first and then re-apply with your intended changes.\nGCPwn Module: modules run exploit_setiampolicy Commands: gcloud organizations get-iam-policy <ORG_ID> --format=json > policy.json; #edit policy.json; gcloud organizations set-iam-policy <ORG_ID> policy.json",
+      "resource_scopes_possible": [
+        "org"
+      ]
+    },
+    "CAN_MODIFY_SA_IAM": {
+      "permission": "iam.serviceAccounts.setIamPolicy",
+      "description": "Can change service account IAM bindings/roles (for example, adding Token Creator or actAs members). Warning: set-iam-policy replaces the full policy, so fetch first and then re-apply with your intended changes.\nGCPwn Module: modules run exploit_setiampolicy Commands: gcloud iam service-accounts get-iam-policy <SA_EMAIL> --format=json > policy.json; #edit policy.json; gcloud iam service-accounts set-iam-policy <SA_EMAIL> policy.json",
+      "target_selector": {
+        "mode": "resource_types",
+        "resource_types": [
+          "service-account"
+        ]
+      },
+      "resource_scopes_possible": [
+        "project",
+        "service-account"
+      ]
+    },
+    "CAN_MODIFY_COMPUTE_INSTANCE_IAM": {
+      "permission": "compute.instances.setIamPolicy",
+      "description": "Can change IAM policy on specific Compute Engine VM instances (who can operate/manage that VM). Warning: set-iam-policy replaces the full policy, so fetch first and then re-apply with your intended changes.\nGCPwn Module: modules run exploit_setiampolicy Commands: gcloud compute instances get-iam-policy <INSTANCE_NAME> --zone <ZONE> --format=json > policy.json; #edit policy.json; gcloud compute instances set-iam-policy <INSTANCE_NAME> policy.json --zone <ZONE>",
+      "target_selector": {
+        "mode": "resource_types",
+        "resource_types": [
+          "computeinstance"
+        ]
+      },
+      "resource_scopes_possible": [
+        "project",
+        "computeinstance"
+      ]
+    },
+    "CAN_MODIFY_ClOUD_RUN_FUNCTION_IAM": {
+      "permission": "cloudfunctions.functions.setIamPolicy",
+      "description": "Can change IAM policy on Cloud Functions (for example, granting invoker/admin access). Warning: set-iam-policy replaces the full policy, so fetch first and then re-apply with your intended changes.\nGCPwn Module: modules run exploit_setiampolicy Commands: gcloud functions get-iam-policy <FUNCTION_NAME> --region <REGION> --format=json > policy.json; #edit policy.json; gcloud functions set-iam-policy <FUNCTION_NAME> policy.json --region <REGION>",
+      "target_selector": {
+        "mode": "resource_types",
+        "resource_types": [
+          "cloudfunction"
+        ]
+      },
+      "resource_scopes_possible": [
+        "project",
+        "cloudfunction"
+      ]
+    },
+    "CAN_IMPERSONATE_SA": {
+      "permission": "iam.serviceAccounts.implicitDelegation",
+      "description": "Can \"act as\" another Service Account thus getting that destination Service Account permissions. Can be chained across multiple service accounts. Note the \"--impersonate-service-account\" is a flag  supported on the gcloud base binary itself.\nGCPwn Module: Review existing exploit_* modules for --implicit-del flag where you can specify  service accounts you want to chain before final action (ex. modules run exploit_generate_access_token --impliict-del) Commands: gcloud auth print-access-token --impersonate-service-account=TARGET_SA@PROJECT_ID.iam.gserviceaccount.com,DELEGATE_SA@PROJECT_ID.iam.gserviceaccount.com",
+      "target_selector": {
+        "mode": "resource_types",
+        "resource_types": [
+          "service-account"
+        ]
+      },
+      "resource_scopes_possible": [
+        "project",
+        "service-account"
+      ]
+    },
+    "CAN_CREATE_SA_ACCESS_TOKEN": {
+      "permission": "iam.serviceAccounts.getAccessToken",
+      "description": "Can mint OAuth access tokens for a service account, enabling direct API actions as that identity. You can then reload these OAuth tokens back into gcpwn to begin calling APIs as that user ([2] oauth2   <credential_name> --token <access_token> [--tokeninfo])\nGCPwn Module: modules run exploit_generate_access_token Commands: gcloud auth print-access-token ",
+      "target_selector": {
+        "mode": "resource_types",
+        "resource_types": [
+          "service-account"
+        ]
+      },
+      "resource_scopes_possible": [
+        "project",
+        "service-account"
+      ]
+    },
+    "CAN_CREATE_SA_KEY": {
+      "permission": "iam.serviceAccountKeys.create",
+      "description": "Can create long-lasting APIkeys for a service account, enabling direct API actions as that identity. You can then reload this key tokens back into gcpwn to begin calling APIs as that user (3] service-acc-key <credential_name> --service-file <service_account_json_path>)\nGCPwn Module: modules run exploit_service_account_keys Commands: gcloud iam service-accounts keys create <FILE_TO_SAVE_PRIVATE_KEY> --iam-account=SA_NAME@PROJECT_ID.iam.gserviceaccount.com",
+      "target_selector": {
+        "mode": "resource_types",
+        "resource_types": [
+          "service-account"
+        ]
+      },
+      "resource_scopes_possible": [
+        "project",
+        "service-account"
+      ]
+    },
+    "CAN_READ_SECRET_DATA": {
+      "permission": "secretmanager.versions.access",
+      "description": "Can access Secret Manager secret payloads. Prioritize secrets tied to CI/CD, cloud auth, and production apps.\nGCPwn Module: modules run enum_secretsmanager --download Commands: gcloud secrets versions access VERSION_ID (can be 'latest') --secret=SECRET_ID",
+      "target_selector": {
+        "mode": "resource_types",
+        "resource_types": [
+          "secrets"
+        ]
+      },
+      "resource_scopes_possible": [
+        "project",
+        "secrets"
+      ]
+    }
+  },
+  "collapsed_role_edges": {
+    "roles/owner": {
+      "edge_type": "ROLE_OWNER",
+      "description": "Collapsed dangerous-path edge for owner role grants (roles/owner). This edge collapses all matched dangerous rule edges for the same grant->target path. See dangerous_rule_names and dangerous_rule_descriptions on the edge for the individual rules that were collapsed."
+    },
+    "roles/editor": {
+      "edge_type": "ROLE_EDITOR",
+      "description": "Collapsed dangerous-path edge for editor role grants (roles/editor). This edge collapses all matched dangerous rule edges for the same grant->target path. See dangerous_rule_names and dangerous_rule_descriptions on the edge for the individual rules that were collapsed."
+    }
+  },
+  "multi_permission_rules": {
+    "RESET_COMPUTE_STARTUP_SA": {
+      "description": "Rewrite startup-script metadata and reset a running compute instance so payload executes, paired with iam.serviceAccounts.actAs on target service accounts for execution-as-SA paths.\nGCPwn Module: modules run exploit_instance_startup_script Commands: gcloud compute instances add-metadata <INSTANCE_NAME> --zone <ZONE> --metadata startup-script='<COMMAND>'; gcloud compute instances reset <INSTANCE_NAME> --zone <ZONE>",
+      "multi_permission_type": "complex",
+      "requires_groups": [
+        {
+          "id": "compute_metadata_reset_group",
+          "permissions": [
+            "compute.instances.get",
+            "compute.instances.setMetadata",
+            "compute.instances.reset"
+          ],
+          "resource_scopes_possible": [
+            "project",
+            "computeinstance"
+          ],
+          "target_selector": {
+            "mode": "resource_types",
+            "resource_types": [
+              "computeinstance"
+            ],
+            "status_in": [
+              "RUNNING"
+            ]
+          }
+        },
+        {
+          "id": "sa_actas_group",
+          "permissions": [
+            "iam.serviceAccounts.actAs"
+          ],
+          "resource_scopes_possible": [
+            "project",
+            "service-account"
+          ],
+          "target_selector": {
+            "mode": "resource_types",
+            "resource_types": [
+              "service-account"
+            ]
+          }
+        }
+      ],
+      "same_scope_required": false,
+      "same_project_required": true,
+      "combo_hop": {
+        "edge_to_target": "RESET_COMPUTE_STARTUP_SA",
+        "target_from_groups": [
+          "sa_actas_group"
+        ],
+        "hops": [
+          {
+            "edge_from_subject": "CAN_RESET_COMPUTE_WITH_STARTUP_SCRIPT",
+            "node_mode": "resource",
+            "from_groups": [
+              "compute_metadata_reset_group"
+            ]
+          }
+        ]
+      }
+    },
+    "START_COMPUTE_STARTUP_SA": {
+      "description": "Rewrite startup-script metadata and start a stopped/terminated compute instance so payload executes, paired with iam.serviceAccounts.actAs on target service accounts for execution-as-SA paths.\nGCPwn Module: modules run exploit_instance_startup_script Commands: gcloud compute instances add-metadata <INSTANCE_NAME> --zone <ZONE> --metadata startup-script='<COMMAND>'; gcloud compute instances start <INSTANCE_NAME> --zone <ZONE>",
+      "multi_permission_type": "complex",
+      "requires_groups": [
+        {
+          "id": "compute_metadata_start_group",
+          "permissions": [
+            "compute.instances.get",
+            "compute.instances.setMetadata",
+            "compute.instances.start"
+          ],
+          "resource_scopes_possible": [
+            "project",
+            "computeinstance"
+          ],
+          "target_selector": {
+            "mode": "resource_types",
+            "resource_types": [
+              "computeinstance"
+            ],
+            "status_in": [
+              "STOPPED"
+            ]
+          }
+        },
+        {
+          "id": "sa_actas_group",
+          "permissions": [
+            "iam.serviceAccounts.actAs"
+          ],
+          "resource_scopes_possible": [
+            "project",
+            "service-account"
+          ],
+          "target_selector": {
+            "mode": "resource_types",
+            "resource_types": [
+              "service-account"
+            ]
+          }
+        }
+      ],
+      "same_scope_required": false,
+      "same_project_required": true,
+      "combo_hop": {
+        "edge_to_target": "START_COMPUTE_STARTUP_SA",
+        "target_from_groups": [
+          "sa_actas_group"
+        ],
+        "hops": [
+          {
+            "edge_from_subject": "CAN_START_COMPUTE_WITH_STARTUP_SCRIPT",
+            "node_mode": "resource",
+            "from_groups": [
+              "compute_metadata_start_group"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

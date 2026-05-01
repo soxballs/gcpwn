@@ -1,0 +1,1262 @@
+[
+  {
+    "service_name": "AI Platform Custom Code Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-aiplatform-cc.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "AI Platform Example Store Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-es.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "AI Platform Fine Tuning Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-aiplatform-ft.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "AI Platform Infra Spanner Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-aiplatform-is.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "AI Platform Private Instance (PIE) Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-aiplatform-pie.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "AI Platform Rapid Eval Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-eval.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "AI Platform Reasoning Engine Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-aiplatform-re.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "AI Platform Resource Identity",
+    "pattern": "service-PROJECT_NUMBER@gcp-ri-aiplatform.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "AI Platform Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-aiplatform.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "API Hub Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-apihub.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "API Keys Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-apikeys.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "APIM Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-apim.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "ASM Mesh Control Plane Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-meshcontrolplane.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "ASM Mesh Data Plane Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-meshdataplane.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Access Approval Service Agent",
+    "pattern": "service-pPROJECT_NUMBER@gcp-sa-accessapproval.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Access Approval Service Agent",
+    "pattern": "service-fFOLDER_NUMBER@gcp-sa-accessapproval.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Access Approval Service Agent",
+    "pattern": "service-oORGANIZATION_NUMBER@gcp-sa-accessapproval.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Ads Data Hub Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-adsdatahub.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Agent Gateway Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-agentgateway.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "AlloyDB Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-alloydb.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "AlloyDB Service Agent",
+    "pattern": "c-PROJECT_NUMBER-IDENTIFIER@gcp-sa-alloydb.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Anthos Audit Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-anthosaudit.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Anthos Config Management Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-anthosconfigmanagement.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Anthos Identity Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-anthosidentityservice.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Anthos Multi-Cloud Container Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-gkemulticloudcontainer.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Anthos Multi-Cloud Control Plane Machine Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-gkemulticloudcpmachine.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Anthos Multi-Cloud Node Pool Machine Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-gkemulticloudnpmachine.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Anthos Multi-Cloud Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-gkemulticloud.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Anthos Policy Controller Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-anthospolicycontroller.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Anthos Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-anthos.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Anthos Service Mesh Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-servicemesh.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Anthos Support Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-anthossupport.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Apigee Registry Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-apigeeregistry.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Apigee Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-apigee.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "App Development Experience Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-appdevexperience.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "App Engine Flexible Environment Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gae-api-prod.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "App Engine Standard Environment Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-gae-service.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "App Hub Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-apphub.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "App Optimize Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-appoptimize.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Application Integration Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-integrations.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Artifact Registry Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Assured OSS Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-assuredoss.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Assured Workloads Service Agent",
+    "pattern": "service-folder-FOLDER_NUMBER@gcp-sa-assuredworkloads.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "AssuredWorkloads Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-assuredworkloads.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Attack Surface Management Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-asm-hpsa.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Audit Manager Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-audit-manager.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Audit Manager Service Agent",
+    "pattern": "service-folder-FOLDER_NUMBER@gcp-sa-audit-manager.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Audit Manager Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-audit-manager.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Auto Annotate Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-autoannotate.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "AutoML Recommendations Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-recommendationengine.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "AutoML Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-automl.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Backup and DR Runner Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-backupdr-run.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Backup and DR Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-backupdr.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Backup and DR Vault Service Agent",
+    "pattern": "vault-PROJECT_NUMBER-IDENTIFIER@gcp-sa-backupdr-pr.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Backup for GKE Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-gkebackup.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Bare Metal Solution Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-bms.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Batch Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-cloudbatch.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Big Query Service Agent",
+    "pattern": "bq-PROJECT_NUMBER@bigquery-encryption.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "BigLake Iceberg Rest Catalog API Service Agent",
+    "pattern": "blirc-PROJECT_NUMBER-IDENTIFIER@gcp-sa-biglakerestcatalog.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "BigQuery Connected Sheets Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-connectedsheets.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "BigQuery Connection Delegation Service Agent",
+    "pattern": "bqcx-PROJECT_NUMBER-IDENTIFIER@gcp-sa-bigquery-condel.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "BigQuery Connection Delegation Service Agent",
+    "pattern": "connection-PROJECT_NUMBER-IDENTIFIER@gcp-sa-bigquery-condel.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "BigQuery Connection Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-bigqueryconnection.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "BigQuery Continuous Query Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-bigquerytardis.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "BigQuery Data Transfer Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-bigquerydatatransfer.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "BigQuery Migration Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-bqms.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "BigQuery Omni Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-prod-bigqueryomni.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "BigQuery Resource Identity Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-bigqueryri.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "BigQuery Spark Connection Delegate Service Agent",
+    "pattern": "bqcx-PROJECT_NUMBER-IDENTIFIER@gcp-sa-bigquery-consp.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "BigQuery Spark Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-bigqueryspark.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Binary Authorization Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-binaryauthorization.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Blockchain Node Engine Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-bne.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Bundles Service Agent",
+    "pattern": "bPROJECT_NUMBER-IDENTIFIER@gcp-sa-bundles.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Chronicle Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-chronicle.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Chronicle Soar Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-chronicle-soar.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud AI Platform Notebooks Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-notebooks.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud AI Platform Notebooks VM Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-notebooks-vm.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud API Gateway Management Plane Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-apigateway-mgmt.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud API Gateway Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-apigateway.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Asset Effective Policy Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-effectivepolicy.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Asset Other Cloud Config Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-othercloudcfg.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Asset Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-cloudasset.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Bigtable Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-bigtable.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Build Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-cloudbuild.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Certificate Manager Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-certificatemanager.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Composer Service Agent",
+    "pattern": "service-PROJECT_NUMBER@cloudcomposer-accounts.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Controls Partner Service Agent",
+    "pattern": "service-folder-FOLDER_NUMBER@gcp-sa-cloudcontrolspartner.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud DNS Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-dns.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Data Fusion Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-datafusion.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Data Loss Prevention Service Agent",
+    "pattern": "service-PROJECT_NUMBER@dlp-api.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Database Migration Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-datamigration.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Dataflow Service Account",
+    "pattern": "service-PROJECT_NUMBER@dataflow-service-producer-prod.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Dataplex Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-dataplex.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Datastream Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-datastream.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Deploy Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-clouddeploy.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Endpoints Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-endpoints.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud File Storage Service Account",
+    "pattern": "service-PROJECT_NUMBER@cloud-filer.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Firestore Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-firestore.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Healthcare Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-healthcare.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Identity Platform Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-identitytoolkit.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud KMS Organization Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-cloudkms.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud KMS Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-cloudkms.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Logging Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-logging.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Logging Service Agent",
+    "pattern": "service-folder-FOLDER_NUMBER@gcp-sa-logging.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Logging Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-logging.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Managed Identities Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-mi.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Memorystore Memcache Service Agent",
+    "pattern": "service-PROJECT_NUMBER@cloud-memcache-sa.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Memorystore Redis Service Agent",
+    "pattern": "service-PROJECT_NUMBER@cloud-redis.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Migration Center Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-migcenter.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Network Management Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-networkmanagement.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Notebook Security Scanner Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-notebooksecurityscanner.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Notebook Security Scanner Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-nss-hpsa.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Notebook Security Scanner Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-nss-hpsa.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Observability Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-observability.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Observability Service Account",
+    "pattern": "service-folder-FOLDER_NUMBER@gcp-sa-observability.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Observability Service Account",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-observability.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Optimization Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-cloudoptim.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Optimization Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-routeoptim.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Pub/Sub Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-pubsub.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Resource Manager Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-cloudresourcemanager.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Risk Manager Service Agent",
+    "pattern": "organizations-ORGANIZATION_NUMBER@gcp-sa-riskmanager.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud SQL Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-cloud-sql.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud SQL Service Agent",
+    "pattern": "pPROJECT_NUMBER-IDENTIFIER@gcp-sa-cloud-sql.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud SQL Service Agent",
+    "pattern": "fFOLDER_NUMBER-IDENTIFIER@gcp-sa-cloud-sql.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud SQL Service Agent",
+    "pattern": "oORGANIZATION_NUMBER-IDENTIFIER@gcp-sa-cloud-sql.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Scheduler Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-cloudscheduler.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Security Command Center Bulk Export Service Account",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-scc-bulk-export.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Security Command Center Notification Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-scc-notification.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Security Command Center Notification Service Account",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-scc-notification.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Security Command Center Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-securitycenter.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Security Command Center Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@security-center-api.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Security Compliance Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-csc-hpsa.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Security Compliance Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-csc-hpsa.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Spanner Production Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-spanner.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Storage for Firebase Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-firebasestorage.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Tasks Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-cloudtasks.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Trace Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-cloud-trace.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Translation Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-translation.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud VM Migration Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vmmigration.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Web Security Scanner Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-websecurityscanner.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Workflows Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-workflows.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cloud Workstations Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-workstations.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Cluster Director Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-hypercomputecluster.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Compute Engine Service Agent",
+    "pattern": "service-PROJECT_NUMBER@compute-system.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Compute Usage Export Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-compute-usage.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Config Delivery Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-configdelivery.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Connectors Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-connectors.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Contact Center AI Insights Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-contactcenterinsights.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Contact Center AI Insights Service Account for CMEK (prod)",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-ccinsights-cmek.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Contact Center AI Platform Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-ccaip.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Contact Center AI shared Service Account for CMEK (prod)",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-ccai-cmek.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Contact Center Insights Resource Identity (prod)",
+    "pattern": "service-PROJECT_NUMBER@gcp-ri-contactcenterinsights.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Container Analysis Service Agent",
+    "pattern": "service-PROJECT_NUMBER@container-analysis.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Container Scanning Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-containerscanning.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Container Security Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-containersec.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Container Threat Detection Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-ktd-control.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Container Threat Detection Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-ktd-hpsa.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Container Threat Detection Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-ktd-hpsa.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Content Warehouse Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-cloud-cw.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Customer Engagement Suite Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-ces.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Data Connectors Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-dataconnectors.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Data Labeling Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-datalabeling.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Data Pipelines Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-datapipelines.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Data Studio CMEK Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-datastudio-cmek.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Data Studio Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-datastudio.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Dataform Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-dataform.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Dataplex Cmek Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-dataplex-cmek.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Dataplex Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-dataplex.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Dataproc Metastore Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-metastore.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Deprecated Monitoring Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-monitoring.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Design Center Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-designcenter.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Developer Connect Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-devconnect.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Dialogflow Service Account for CMEK (prod)",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-dialogflow-cmek.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Dialogflow Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-dialogflow.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Discovery Engine Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-discoveryengine.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Document AI Warehouse CMEK Infra Spanner Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-cloud-cw-cmek.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "DocumentAI Core Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-prod-dai-core.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Edge Container Cluster Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-edgecontainercluster.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Edge Container GCR Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-edgecontainergcr.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Edge Container Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-edgecontainer.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Enterprise Knowledge Graph Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-cloud-ekg.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Eventarc Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-eventarc.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "External Key Management Service Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-ekms.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Firebase AI Logic Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-firebasevertexai.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Firebase App Check Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-firebaseappcheck.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Firebase App Hosting Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-firebaseapphosting.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Firebase Crashlytics Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-crashlytics.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Firebase Data Connect Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-firebasedataconnect.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Firebase Extensions Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-firebasemods.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Firebase Machine Learning Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-firebaseml.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Firebase Management Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-firebase.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Firebase Realtime Database Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-firebasedatabase.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Firebase Rules Service Agent",
+    "pattern": "service-PROJECT_NUMBER@firebase-rules.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Firewall Insights Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-firewallinsights.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "G Suite Add-ons Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-gsuiteaddons.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "GCS Search Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-storage-search.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "GKE Dataplane V2 Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-gkedataplanev2.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "GKE Hub API Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-gkehub.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Gemini Code Assist Management Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-geminicodeassistmp.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Gemini Data Analytics Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-geminidataanalytics.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Gemini for Google Cloud Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-cloudaicompanion.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Generative Language Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-generativelanguage.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Generative Language Service Agent",
+    "pattern": "p-PROJECT_NUMBER-IDENTIFIER@gcp-sa-generativelanguage.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Gke On-Prem Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-gkeonprem.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google APIs Service Agent",
+    "pattern": "PROJECT_NUMBER@cloudservices.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud Dataproc Resource Manager Node Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-dataprocrmnode.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud Dataproc Service Agent",
+    "pattern": "service-PROJECT_NUMBER@dataproc-accounts.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud Functions Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcf-admin-robot.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud ML Engine Service Agent",
+    "pattern": "service-PROJECT_NUMBER@cloud-ml.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud Network Security Authz Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-ns-authz.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud OS Config Rollout Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-osconfig-rollout.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud OS Config Rollout Service Agent",
+    "pattern": "service-folder-FOLDER_NUMBER@gcp-sa-osconfig-rollout.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud OS Config Rollout Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-osconfig-rollout.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud OS Config Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-osconfig.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud OS Config Service Agent",
+    "pattern": "service-folder-FOLDER_NUMBER@gcp-sa-osconfig.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud OS Config Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-osconfig.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud NetApp Volumes Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-netapp.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud Run Service Agent",
+    "pattern": "service-PROJECT_NUMBER@serverless-robot-prod.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Cloud Service Extensions Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-dep.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Container Registry Service Agent",
+    "pattern": "service-PROJECT_NUMBER@containerregistry.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Google Storage Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gs-project-accounts.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Hypercompute Diagon Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-diagon.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "IAP Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-iap.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Identity Pool Resource Identity",
+    "pattern": "service-PROJECT_NUMBER@gcp-ri-identitypool.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Infra Spanner Production Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-global-spanner.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Infrastructure Manager Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-config.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Integrated Vulnerability Scanner Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-ivs.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Internal Cloud Firestore Spanner Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-fs-spanner.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "KRM API Hosting Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-krmapihosting.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "KRM API Hosting Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-krmapihosting-dataplane.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Kubernetes Engine Node Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-gkenode.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Kubernetes Engine Service Agent",
+    "pattern": "service-PROJECT_NUMBER@container-engine-robot.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Legacy Cloud Build service account",
+    "pattern": "PROJECT_NUMBER@cloudbuild.gserviceaccount.com"
+  },
+  {
+    "service_name": "Livestream Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-livestream.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Logging Service Agent",
+    "pattern": "pPROJECT_NUMBER-IDENTIFIER@gcp-sa-logging.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Logging Service Agent",
+    "pattern": "fFOLDER_NUMBER-IDENTIFIER@gcp-sa-logging.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Logging Service Agent",
+    "pattern": "oORGANIZATION_NUMBER-IDENTIFIER@gcp-sa-logging.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Looker Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-looker.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Lustre Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-lustre.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Managed Flink Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-managedflink.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Managed Kafka Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-managedkafka.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Memorystore Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-memorystore.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Mesh Config Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-meshconfig.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Model Armor Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-modelarmor.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Monitoring Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-monitoring-notification.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Multi Cluster Ingress Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-multiclusteringress.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Multi cluster metering Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-mcmetering.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Multi-cluster Service Discovery Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-mcsd.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Network Actions Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-networkactions.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Network Connectivity Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-networkconnectivity.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Network Security Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-networksecurity.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "On-Demand Scanning Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-ondemandscanning.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Oracle Database@Google Cloud Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-oci.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Parallelstore Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-parallelstore.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Parameter Manager Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-pm.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Playbook Runner Service Agent",
+    "pattern": "pPROJECT_NUMBER-IDENTIFIER@gcp-sa-playbooks.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Playbook Runner Service Agent",
+    "pattern": "fFOLDER_NUMBER-IDENTIFIER@gcp-sa-playbooks.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Playbook Runner Service Agent",
+    "pattern": "oORGANIZATION_NUMBER-IDENTIFIER@gcp-sa-playbooks.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Policy Remediator Service Agent (prod)",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-v1-remediator.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Private CA Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-privateca.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Privileged Access Manager Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-pam.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Privileged Access Manager Service Agent",
+    "pattern": "service-folder-FOLDER_NUMBER@gcp-sa-pam.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Privileged Access Manager Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-pam.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Progressive Rollout Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-progrollout.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Progressive Rollout Service Agent",
+    "pattern": "service-folder-FOLDER_NUMBER@gcp-sa-progrollout.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Progressive Rollout Service Agent",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-progrollout.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Pub/Sub Lite Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-pubsublite.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Rapid Migration Assessment Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-rma.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Remote Build Execution Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-rbe.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Remote Build Execution Service Agent",
+    "pattern": "service-PROJECT_NUMBER@remotebuildexecution.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Remote Build Execution Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-remotebuild.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Retail Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-retail.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "SCC CMEK Spanner Service Agent (PROD)",
+    "pattern": "service-org-ORGANIZATION_NUMBER@gcp-sa-sccspanner.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "SaaS Service Management Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-saasservicemgmt.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Secret Manager Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-secretmanager.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Secure Source Manager Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-sourcemanager.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Secure Web Proxy Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-securewebproxy.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Serverless Integrations Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-runapps.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Serverless VPC Access Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vpcaccess.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Service Agent Manager",
+    "pattern": "service-agent-manager@system.gserviceaccount.com"
+  },
+  {
+    "service_name": "Service Consumer Management Service Agent",
+    "pattern": "service-PROJECT_NUMBER@service-consumer-management.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Service Directory Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-servicedirectory.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Service Networking Service Agent",
+    "pattern": "service-PROJECT_NUMBER@service-networking.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Spectrum SAS Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-spectrumsas.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Speech-to-Text Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-speech.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Storage Insights Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-storageinsights.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Storage Transfer Service Service Agent",
+    "pattern": "project-PROJECT_NUMBER@storage-transfer-service.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Stream Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-stream.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "TPU Service Agent",
+    "pattern": "service-PROJECT_NUMBER@cloud-tpu.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "TPU Service Agent (v2)",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-tpu.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Transcoder Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-transcoder.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Transfer Appliance Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-transferappliance.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "VMwareEngine Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vmwareengine.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vector Search Cmek Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vs-cmek.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vector Search Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vectorsearch.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Agent Sandbox Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-sandbox.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Ancillary Secure Fine Tuning Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-shtune.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Batch Prediction Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-bp.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Colab Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-nb.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Extension Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-ex.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Extension Service Agent for Custom Code",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-ex-cc.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Logging Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-logging.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Managed OSS Fine Tuning Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-moss-ft.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Model Monitoring Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-mm.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Notebook Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-aiplatform-vm.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Online Prediction Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-op.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Secure Fine Tuning Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-tune.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Telemetry Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-telemetry.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex AI Training Cluster Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-vtc.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex Agent Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-agent.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vertex RAG Data Service Agent",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-vertex-rag.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Virtual Machine Threat Detection Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-scc-vmtd.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Vision AI Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-visionai.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Workload Manager Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-workloadmanager.iam.gserviceaccount.com"
+  },
+  {
+    "service_name": "Workstations VM Default Service Account",
+    "pattern": "service-PROJECT_NUMBER@gcp-sa-workstationsvm.iam.gserviceaccount.com"
+  }
+]
