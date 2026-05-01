@@ -52,7 +52,7 @@ google-cloud-videointelligence==2.19.0
 google-cloud-vision==3.13.0
 
 # VertexAI
-google-genai==1.73.1
+google-genai==1.74.0
 
 # Notes
 # Google Groups / Docs APIs:
